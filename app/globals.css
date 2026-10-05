@@ -92,7 +92,7 @@ section{position:relative}
 .scroll-ind{position:absolute;left:50%;bottom:26px;z-index:2;width:22px;height:36px;border:1px solid rgba(252,252,252,.4);border-radius:12px;transform:translateX(-50%)}
 .scroll-ind::after{content:"";position:absolute;left:50%;top:7px;width:3px;height:7px;margin-left:-1.5px;border-radius:2px;background:var(--blue);animation:wheel 1.8s ease-in-out infinite}
 @keyframes wheel{0%{opacity:0;transform:translateY(0)}30%{opacity:1}100%{opacity:0;transform:translateY(12px)}}
-@media(max-height:820px) and (min-width:1021px){.hero .h-xl{font-size:clamp(46px,8vw,136px)}}
+@media(max-height:820px) and (min-width:1021px){.hero .h-xl{font-size:clamp(46px,7.4vw,126px)}}
 @media(max-height:720px) and (min-width:1021px){.hero .h-xl{font-size:clamp(46px,6.6vw,120px)}}
 @media(max-width:720px){.hero-inner{align-self:flex-start;margin-top:clamp(100px,12vh,112px)}.hero-trust{display:none}.hero-ctas .btn{flex:1 1 100%;justify-content:center}.scroll-ind{display:none}}
 
